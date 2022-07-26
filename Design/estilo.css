@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+body{
+    background-image: linear-gradient(to right, white, #FCE68E);
+}
+
+main{
+    position: relative;
+    height: 100vh;
+}
+
+section#phone{
+    display: block;
+    margin: auto;
+    position:absolute;
+    top: 47%;
+    left: 52%;
+    transform: translate(-70%,-30%);
+    background: url('../imagens/smart-peq.png') no-repeat;
+    width: 600px;
+    height: 600px;
+    
+}
+iframe#tela{
+    position: relative;
+    background: url('../imagens/tela-home.jpg') ;
+    background-size: cover;
+    top: 57px;
+    left: 312px;
+    width: 217px;
+    height: 377px;
+    
+
+}
+
+section#bot img{
+    width: 65px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.607);
+    
+}
+
+section#bot{
+    text-align: right;
+}
